@@ -57,7 +57,9 @@ Create data.tf, output.tf, variables.tf and terraform.tfvars file
 In terraform.tfvars, following is expected
 
 project_id   = "<PROJECT_ID>"
+
 location     = "<REGION>"
+
 docker_image = "<DOCKER_IMAGE>"
 
 Run the following command to deploy:
