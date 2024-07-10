@@ -63,8 +63,11 @@ location     = "<REGION_ID>"
 docker_image = "<DOCKER_IMAGE>"
 
 Run the following command to deploy:
+ 
  terraform init
+ 
  terraform apply
  
 To destroy the infrastructure
+ 
  terraform destroy
