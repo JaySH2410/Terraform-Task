@@ -1,11 +1,16 @@
 resource "google_cloud_run_service" "default" {
-  name     = "cloudrun-aotask-tsrv"
+  name     = var.service_name
   location = var.region
 
   template {
     spec {
       containers {
         image = var.image
+        resources {
+          limits = {
+            memory = var.memory
+          }
+        }
       }
     }
   }

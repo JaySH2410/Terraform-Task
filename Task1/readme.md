@@ -60,7 +60,9 @@ project_id   = "<PROJECT_ID>"
 location     = "<REGION>"
 docker_image = "<DOCKER_IMAGE>"
 
-
-To Cleanup, run terraform destroy command to destroy every resource 
-
+Run the following command to deploy:
+ terraform init
+ terraform apply
  
+To destroy the infrastructure
+ terraform destroy

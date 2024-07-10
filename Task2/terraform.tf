@@ -10,6 +10,6 @@ terraform {
 provider "google" {
   # Configuration options
   project     = var.project_id
-  region      = "us-west1"
+  region      = var.region
   credentials = "keys.json"
 }
