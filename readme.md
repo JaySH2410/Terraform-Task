@@ -2,9 +2,9 @@ This repository contains two tasks for deploying infrastructure on Google Cloud 
 
 Clone the repo and move to the respective directory and then run following command to deploy the infrastructure
 
- git clone <repository-url>
+ git clone <REPO_DIR>
  
- cd <repository-directory>/<task>
+ cd <REPO_DIR>/<TASK_DIR>
 
  terraform init
 
