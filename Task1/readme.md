@@ -58,7 +58,7 @@ In terraform.tfvars, following is expected
 
 project_id   = "<PROJECT_ID>"
 
-location     = "<REGION>"
+location     = "<REGION_ID>"
 
 docker_image = "<DOCKER_IMAGE>"
 
